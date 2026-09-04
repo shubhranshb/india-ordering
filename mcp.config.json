@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "zepto": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/zepto.ts"] },
+    "blinkit": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/blinkit.ts"] },
+    "instamart": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/instamart.ts"] },
+    "bigbasket": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/bigbasket.ts"] },
+    "swiggy-food": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/swiggy-food.ts"] },
+    "zomato": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/zomato.ts"] },
+    "amazon": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/amazon.ts"] },
+    "addresses": { "command": "npx", "args": ["tsx", "packages/mcp/src/bin/addresses.ts"] }
+  }
+}

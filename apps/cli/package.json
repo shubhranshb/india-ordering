@@ -1,0 +1,15 @@
+{
+  "name": "@io/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@io/agent": "workspace:*",
+    "@io/core": "workspace:*",
+    "@io/providers": "workspace:*",
+    "dotenv": "^16.4.5"
+  }
+}
