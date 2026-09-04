@@ -1,3 +1,23 @@
+node_modules/
+.turbo/
+*.tsbuildinfo
+.next/
+.vercel/
+.DS_Store
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# provider login sessions — auth cookies for accounts with saved payment methods
+*.storageState.json
+.sessions/
+apps/worker/.profiles/
+
+# local CLI state
+.india-ordering/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
